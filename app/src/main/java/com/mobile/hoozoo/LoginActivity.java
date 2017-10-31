@@ -87,7 +87,7 @@ public class LoginActivity extends AppCompatActivity {
 
                 Log.d(TAG, "OverrideUrl: " + authorizationUrl);
 
-
+                webView.loadUrl(authorizationUrl);
                 Log.d(TAG,"");
                 return true;
             }
